@@ -5,7 +5,7 @@ const config = {
   optimizeDeps:{
     include: ['vuex-router-sync', 'deepmerge', 'xlsx'],
     link: [],
-    allowNodeBuiltins: ['koa', 'uuid', 'follow-redirects'],
+    allowNodeBuiltins: ["request", "mime", "koa", "koa-bodyparser", "koa-helmet", "koa-mount", "koa-router", "koa-static", "co-request", "qs", "long", "memory-fs",  "signale", "statuses", "tmp", "uuid", "vite",'destroy', 'isstream', 'content-disposition'],
     auto: true
   },
   proxy: {

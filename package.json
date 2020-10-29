@@ -1,7 +1,7 @@
 {
-    "name": "node_logicsrv_template",
+    "name": "template1",
     "version": "1.1.0",
-    "description": "WXG node boilerplate ",
+    "description": "test vite ",
     "main": "index.js",
     "scripts": {
         "dev:test": "cross-env NODE_ENV=dev DEBUG=koa-router node --inspect=127.0.0.1:9235 ./script/start-test.js",
@@ -63,7 +63,7 @@
         "url-loader": "^1.1.1",
         "uuid": "^3.3.2",
         "vite": "^1.0.0-rc.8",
-        "vite-plugin-vue2": "^0.2.0",
+        "vite-plugin-vue2": "^0.2.1",
         "vue-loader": "^15.4.2",
         "vue-server-renderer": "^2.5.17",
         "vue-template-compiler": "^2.5.17",
@@ -71,7 +71,10 @@
         "webpack-bundle-analyzer": "^3.0.2",
         "webpack-cli": "^3.1.2",
         "webpack-merge": "^4.1.4",
-        "webpack-node-externals": "^1.7.2"
+        "webpack-node-externals": "^1.7.2",
+        "koa-webpack-dev-middleware": "^2.0.2",
+        "koa-webpack-hot-middleware": "^1.0.3",
+        "signale": "^1.4.0"
     },
     "dependencies": {
         "@types/uuid": "^3.4.4",
@@ -88,9 +91,7 @@
         "vue-router": "^3.0.1",
         "vuex": "^3.0.1",
         "xlsx": "^0.16.8",
-        "qs": "^6.5.2",
         "raw-loader": "^0.5.1",
-        "signale": "^1.4.0",
         "statuses": "^1.5.0",
         "vuex-router-sync": "^5.0.0",
         "typescript": "^3.1.1",
@@ -100,8 +101,7 @@
         "koa-mount": "^4.0.0",
         "koa-router": "^7.4.0",
         "koa-static": "^5.0.0",
-        "koa-webpack-dev-middleware": "^2.0.2",
-        "koa-webpack-hot-middleware": "^1.0.3",
-        "co-request": "^0.2.1"
+        "co-request": "^0.2.1",
+        "qs": "^6.5.2"
     }
 }

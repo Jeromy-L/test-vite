@@ -63,7 +63,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      pdf: require("./assets/help.pdf"),
+      pdf: 'import("./assets/help.pdf")',
       nav: `<navigator`,
       sub: `<subscribe`,
       achor: "",
