@@ -74,9 +74,7 @@
         "webpack-node-externals": "^1.7.2",
         "koa-webpack-dev-middleware": "^2.0.2",
         "koa-webpack-hot-middleware": "^1.0.3",
-        "signale": "^1.4.0"
-    },
-    "dependencies": {
+        "signale": "^1.4.0",
         "@types/uuid": "^3.4.4",
         "@vue/compiler-sfc": "^3.0.2",
         "await-to-js": "^2.0.1",
@@ -103,5 +101,8 @@
         "koa-static": "^5.0.0",
         "co-request": "^0.2.1",
         "qs": "^6.5.2"
+    },
+    "dependencies": {
+        
     }
 }
