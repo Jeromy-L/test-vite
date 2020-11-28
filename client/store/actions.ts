@@ -1,4 +1,3 @@
-// import {createDefaultApi} from '../api';
 
 export function createAction(options) {
     const api = {
@@ -8,7 +7,6 @@ export function createAction(options) {
             })
         }};
     return {
-        // 根据 BlogCategory 和 BlockType 批量拉取帖子列表
         FETCH_USER_STATE: ({commit}) => {
             const url = '/mock/cgi/userinfo';
             commit('SET_USER_STATE_LOADING', {loading: true});

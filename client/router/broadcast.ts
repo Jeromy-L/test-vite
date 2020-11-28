@@ -1,11 +1,7 @@
-/*
- * @Date: 2020-03-24 11:24:37
- * @LastEditors: lynatao
- * @LastEditTime: 2020-03-26 20:48:28
- */
-import Home from '../views/Home.vue';
-import Test from '../views/Test.vue';
-import Dev from '../views/Dev.vue';
+
+// import Home from '../views/Home.vue';
+// import Test from '../views/Test.vue';
+// import Dev from '../views/Dev.vue';
 
 export default [
     // 直播助手 直播间管理
