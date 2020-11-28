@@ -5,7 +5,6 @@ import Meta from 'vue-meta';
 
 import {createRouter} from './router';
 import {sync} from 'vuex-router-sync';
-// import {sync} from './testModule/vuex-router-sync.ts';
 
 import {createStore} from './store';
 
