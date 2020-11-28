@@ -1,21 +1,18 @@
 <template>
-    <div>
-        <h2>Hello world! Test</h2>
-        <p>safasdfasdfa</p>
-    </div>
+  <div>
+    <h2>Hello world! Test</h2>
+    <p>safasdfasdfa</p>
+  </div>
 </template>
 
 <script lang="ts">
-    import Vue from 'vue';
+import Vue from "vue";
 
-    export default Vue.extend({
-        name: "Test",
-        data(){
-            return {}
-        },
-    });
+export default Vue.extend({
+  name: "Test",
+  data() {
+    return {};
+  },
+});
 </script>
 
-<style scoped>
-
-</style>
