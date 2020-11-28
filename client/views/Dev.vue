@@ -1,14 +1,12 @@
 <template>
     <div>
         <h2>Hello world  Dev!</h2>
-        <p>阿斯顿发是大是大非到发送</p>
-        <p>{{user.nickname}}</p>
+        <p>三生三世</p>
     </div>
 </template>
 
 <script lang="ts">
     import Vue from 'vue';
-    import {mapState} from "vuex";
 
     export default Vue.extend({
         name: "Dev",
@@ -16,26 +14,6 @@
             return {
                 render: process.env.VUE_ENV
             };
-        },
-        asyncData({store, route}){
-            return store.dispatch('FETCH_DATA');
-        },
-        head(){
-            return {
-                title: process.env.VUE_ENV === 'server'? 'server_t': 'client_t',
-                meta: [
-                    {
-                        name: 'description',
-                        content: 'ssr,koa,rpcagent',
-                    }, {
-                        name: 'keyword',
-                        content: 'ssr,koa,rpcagent'
-                    }
-                ]
-            }
-        },
-        computed: {
-            ...mapState(['user'])
         },
     });
 </script>
