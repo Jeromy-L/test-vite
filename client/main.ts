@@ -1,4 +1,3 @@
-import './polyfill';
 import Vue from 'vue';
 import App from './App.vue';
 // import Meta from 'vue-meta/dist/vue-meta.esm.browser';
