@@ -6,7 +6,6 @@ import {createRouter} from './router';
 import {createStore} from './store';
 
 
-
 const store = createStore({cookie:'', ip:'', ua:''});
 const router = createRouter();
 

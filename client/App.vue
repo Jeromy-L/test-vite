@@ -11,10 +11,20 @@
 
 <script lang="ts">
     import Vue from 'vue';
-    import { mapState } from 'vuex';
-
+    import {createDefaultApi} from '../client/api/index';
+    import to from 'await-to-js'
+    const api = createDefaultApi();
     export default Vue.extend({
         components: {
+        },
+        mounted(){
+           
+        },
+        methods:{
+            
+            async test(){
+              const [err, res] = await  to((api.get('/test')));
+            }
         }
     });
 </script>
