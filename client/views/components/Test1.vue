@@ -7,13 +7,8 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Test1 from './components/Test1.vue';
-
 export default Vue.extend({
-  name: "Test",
-  components: {
-    Test1
-  },
+  name: "Test1",
   data() {
     return {};
   },
@@ -21,5 +16,6 @@ export default Vue.extend({
 </script>
 
 <style lang="less">
-@import "./test.less";
+@import "../test.less";
+
 </style>
